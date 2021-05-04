@@ -4,7 +4,9 @@ For this project, we created a device that could be inserted into a water sample
 
 As a result of completing this project, we are able to accurately determine the pH of a sample as well as use the values obtained from the phototransistor and LED to scale an appropriate value for the turbidity reading. This allows the user to determine whether a sample of water is safe for consumption based on these parameters. We would, however, use additional testing in order to determine other concentrations of possible contaminants/pollutants.
 ## Design Description
-For this design, we used a pH probe, 5mm green LED, clear NPN phototransistor, potentiometer, LCD display, and a RGB LED. We began the circuitry by allowing analog pins A0 and A1 to be connected to the two sensors. From there we used our knowledge of these ciruit elements and connected them to group and voltage supply in a way that was aided by our code. We used Arduino to write the code and a breadboard and Redboard to do the wiring and construction. 
+For this design, we used a pH probe, 5mm green LED, clear NPN phototransistor, potentiometer, LCD display, and a RGB LED. We began the circuitry by allowing analog pins A0 and A1 to be connected to the two sensors. From there we used our knowledge of these ciruit elements and connected them to group and voltage supply in a way that was aided by our code. We used Arduino to write the code and a breadboard and Redboard to do the wiring and construction.
+
+To use the device the user must pour 1 cup of the desired liquid into the cup for sensing. Once all liquid has been pored in, then the user can run the accompanying code and the system will display the data on the LCD and warn the user with a red LED if the sample is unsafe for drinking.
 
 ### Wiring Diagram
 ![Wiring Diagram](https://user-images.githubusercontent.com/82110677/117020273-49673480-acc4-11eb-8b9e-b7e0d93d6151.PNG)
@@ -23,7 +25,7 @@ Front View
 
 Side View
 
-![Side View](https://user-images.githubusercontent.com/82110677/117026072-723df880-acc9-11eb-911f-781c4a60c87b.PNG)
+![Side View](https://user-images.githubusercontent.com/82110677/117026072-723df880-acc9-11eb-911f-781c4a60c87b.PNG) 
 
 Top View
 
