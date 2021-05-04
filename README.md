@@ -24,3 +24,5 @@ Side View
 ![Side View](https://user-images.githubusercontent.com/82110677/117023355-08bcea80-acc7-11eb-9506-0dff1a28a16b.PNG)
 
 Top View
+
+![Top View](https://user-images.githubusercontent.com/82110677/117023692-55a0c100-acc7-11eb-9af4-66f2b95a788c.PNG)
