@@ -9,7 +9,7 @@ For this design, we used a pH probe, 5mm green LED, clear NPN phototransistor, p
 To use the device the user must pour 1 cup of the desired liquid into the cup for sensing. Once all liquid has been pored in, then the user can run the accompanying code and the system will display the data on the LCD and warn the user with a red LED if the sample is unsafe for drinking.
 
 ### Wiring Diagram
-![Wiring Diagram](https://user-images.githubusercontent.com/82110677/117020273-49673480-acc4-11eb-8b9e-b7e0d93d6151.PNG)
+![Wiring Diagram](https://user-images.githubusercontent.com/82110677/117064342-1046b880-acf4-11eb-8da2-cbf72d5e8325.PNG)
 
 ### Engineering Drawings
 
