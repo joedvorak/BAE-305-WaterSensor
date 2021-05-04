@@ -21,3 +21,6 @@ Front View
 
 Side View
 
+![Side View](https://user-images.githubusercontent.com/82110677/117023355-08bcea80-acc7-11eb-9506-0dff1a28a16b.PNG)
+
+Top View
