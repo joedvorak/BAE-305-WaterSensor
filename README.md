@@ -30,3 +30,10 @@ Top View
 ![Top View](https://user-images.githubusercontent.com/82110677/117026191-91d52100-acc9-11eb-8985-7e683aca9790.PNG)
 
 ### Code
+
+
+
+## Design Decision
+In order to create this system, we went through a lot of different design ideas before landing on our final design. Initially, we thought we would be able to heat the water, after determining it was unsafe to drink, but after further investigation into this process decided against it. We also decided to leave out any moving parts, such as servo motors, as this would take a lot of power and putting together two breadboards can get difficult. In the end, we determined that a pH sensor and a LED with a phototransistor would be best at determining values we could use to determine water quality. A big decision we had to make was whether to use a phototransistor or a photoresistor as they both perform similar functions. After some research and talking to Dr. Dvorak, we determined that the phototransistor would be best as it gives slightly more accurate readings. 
+	
+The testing device was difficult as we had to consider the fact that the wires and sensors are not water resistant (except for the pH probe). For the container/cup, we originally had planned to use a clear plastic cup with the LED and phototransistor stuck to the outside combined with a blackbox to get our readings. This idea, however, did not seem like it would give the best results. After much discussion, we determined we could use a black cup and drill holes in the sidies to insert the LED and phototransistor. We could then add putty or glue around the edges of the holes to prevent water from escaping. We were able to solder the LED and phototransistor to some wire and connect them directly to our breadboard without having to string multiple pieces of wire from the Sparkfun kit together.
