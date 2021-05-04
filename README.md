@@ -13,5 +13,5 @@ The device used to house the sensors and test the water is a simple modified cup
 
 Bottom View
 ![Bottom View](https://user-images.githubusercontent.com/82110677/117021591-7bc56180-acc5-11eb-83e4-bd84cde2971f.PNG)
-
-
+Front View
+![Front View](https://user-images.githubusercontent.com/82110677/117021942-cf37af80-acc5-11eb-9db0-c9ba3867971a.PNG)
