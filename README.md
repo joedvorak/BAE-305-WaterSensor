@@ -13,7 +13,7 @@ To use the device the user must pour 1 cup of the desired liquid into the cup fo
 
 ### Engineering Drawings
 
-The device used to house the sensors and test the water is a simple modified cup, blacked out with spray to avoid any unwanted light interference. The images below are CAD recreations of the cup. 
+The device used to house the sensors and test the water is a simple modified cup, blacked out with spray to avoid any unwanted light interference. The LED and phototransistor were then placed in small holes directly across from each other in the cup. Waterproof glue was used to seal the sensors to keep the cup water tight. Any other waterproof bonding substance would work. The images below are CAD recreations of the cup. 
 
 Bottom View
 
