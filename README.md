@@ -34,8 +34,7 @@ Top View
 ### Code
 ![Code 1](https://user-images.githubusercontent.com/82110677/117055201-e6d45f80-ace8-11eb-93fc-384321561d6a.png)
 
-
-
+![Code 2](https://user-images.githubusercontent.com/82110677/117055435-256a1a00-ace9-11eb-88b3-ff951f879a87.png)
 
 ## Design Decision
 In order to create this system, we went through a lot of different design ideas before landing on our final design. Initially, we thought we would be able to heat the water, after determining it was unsafe to drink, but after further investigation into this process decided against it. We also decided to leave out any moving parts, such as servo motors, as this would take a lot of power and putting together two breadboards can get difficult. In the end, we determined that a pH sensor and a LED with a phototransistor would be best at determining values we could use to determine water quality. A big decision we had to make was whether to use a phototransistor or a photoresistor as they both perform similar functions. After some research and talking to Dr. Dvorak, we determined that the phototransistor would be best as it gives slightly more accurate readings. 
