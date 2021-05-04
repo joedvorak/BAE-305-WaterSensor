@@ -12,4 +12,6 @@ Shown below is the wiring diagram for our set-up.
 The device used to house the sensors and test the water is a simple modified cup, blacked out with spray to avoid any unwanted light interference. The images below are CAD recreations of the cup. 
 
 Bottom View
+![Bottom View](https://user-images.githubusercontent.com/82110677/117021591-7bc56180-acc5-11eb-83e4-bd84cde2971f.PNG)
+
 
