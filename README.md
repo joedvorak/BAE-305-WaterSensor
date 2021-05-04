@@ -32,6 +32,8 @@ Top View
 ![Top View](https://user-images.githubusercontent.com/82110677/117026191-91d52100-acc9-11eb-8985-7e683aca9790.PNG)
 
 ### Code
+Below you will find the images of the source code we used for this project. If you would like to replicate our work or analyze our code closer you can do so by clicking the link at the top of this page redircting you to our main Git Hub page. From there see the "Branches" tab at the top in which you will find the branch called "Arduino Code". Inside that branch is our exact source code that you'll be able to copy and paste or review more closely. 
+
 ![Code 1](https://user-images.githubusercontent.com/82110677/117055201-e6d45f80-ace8-11eb-93fc-384321561d6a.png)
 
 ![Code 2](https://user-images.githubusercontent.com/82110677/117055435-256a1a00-ace9-11eb-88b3-ff951f879a87.png)
