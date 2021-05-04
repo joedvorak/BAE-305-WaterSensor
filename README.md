@@ -7,5 +7,4 @@ As a result of completing this project, we are able to accurately determine the 
 For this design, we used a pH probe, LED, phototransistor, potentiometer, LCD display, and a button. We used Arduino to write the code and a breadboard and Redboard to do the wiring and construction. 
 
 Shown below is the wiring diagram for our set-up.
-![WiringDiagram] 
-
+![Wiring Diagram](https://user-images.githubusercontent.com/82110677/117020273-49673480-acc4-11eb-8b9e-b7e0d93d6151.PNG)
