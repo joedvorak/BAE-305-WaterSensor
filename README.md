@@ -16,4 +16,4 @@ Bottom View
 ![Bottom View](https://user-images.githubusercontent.com/82110677/117022432-3f463580-acc6-11eb-9623-c86fb90ca336.PNG)
 
 Front View
-![Front View](https://user-images.githubusercontent.com/82110677/117021942-cf37af80-acc5-11eb-9db0-c9ba3867971a.PNG)
+![Front View](https://user-images.githubusercontent.com/82110677/117022795-8502fe00-acc6-11eb-8998-88468cb622cb.PNG)
