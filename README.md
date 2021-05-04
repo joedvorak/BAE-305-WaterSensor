@@ -17,7 +17,7 @@ Bottom View
 
 Front View
 
-![Front View](https://user-images.githubusercontent.com/82110677/117022795-8502fe00-acc6-11eb-8998-88468cb622cb.PNG)
+![Front View](https://user-images.githubusercontent.com/82110677/117025744-2c813000-acc9-11eb-9c60-3f014a640669.PNG)
 
 Side View
 
