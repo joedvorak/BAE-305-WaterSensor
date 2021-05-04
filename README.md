@@ -42,6 +42,11 @@ The testing device was difficult as we had to consider the fact that the wires a
 
 Ulimately, if anyone wants to improve on the design we have made there are turbidimeters that can actually measure the turbidity of a sample directly. These devices were out of our price range because our goal was to make the design as cheap as possible. Using the phototransistor coupled with an LED allowed us to introduce some unique design ideas and learn more about how the circuitry relates to the code.
 
+## Materials
+-SparkFun Inventor Kit (Redboard Arduino, Breadboard, Resistors, LCD, RGB LED, Potentiometer)
+-5mm Green LED
+-NPN Phototransistor
+-Gravity: Analog pH Sensor
 
 ## Testing Description
 In order to test our device, we had to measure what acceptable values for turbidity would be so that the user could understand whether or not the water is safe. In order to do this, we got water and measured the value. Additionally, we tested water with the addition of dirt to analyze how our turbidity values changed, and make the appropriate thresholds within our code. We also used a multimeter to ensure that the voltage value being read from our circuit was appropriate. In order to read this value, we placed the probes of the multimeter into our circuit. The values obtained was between 4 and 5 volts, which is acceptable for our circuit. The pH meter didn't require any outside devices for testing. We calibrated it based on the known pH of the buffer solution it was provided with. To back up our thoughts we tested lemon juice and saw that it fell within 2-3pH which was expected.
