@@ -44,8 +44,11 @@ Ulimately, if anyone wants to improve on the design we have made there are turbi
 
 ## Materials
 -SparkFun Inventor Kit (Redboard Arduino, Breadboard, Resistors, LCD, RGB LED, Potentiometer)
+
 -5mm Green LED
+
 -NPN Phototransistor
+
 -Gravity: Analog pH Sensor
 
 ## Testing Description
