@@ -43,12 +43,9 @@ The testing device was difficult as we had to consider the fact that the wires a
 Ulimately, if anyone wants to improve on the design we have made there are turbidimeters that can actually measure the turbidity of a sample directly. These devices were out of our price range because our goal was to make the design as cheap as possible. Using the phototransistor coupled with an LED allowed us to introduce some unique design ideas and learn more about how the circuitry relates to the code.
 
 ## Materials
--SparkFun Inventor Kit (Redboard Arduino, Breadboard, Resistors, LCD, RGB LED, Potentiometer)
-
+-SparkFun Inventor Kit 
 -5mm Green LED
-
 -NPN Phototransistor
-
 -Gravity: Analog pH Sensor
 
 ## Testing Description
