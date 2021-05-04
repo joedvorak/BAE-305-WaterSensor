@@ -8,3 +8,8 @@ For this design, we used a pH probe, LED, phototransistor, potentiometer, LCD di
 
 Shown below is the wiring diagram for our set-up.
 ![Wiring Diagram](https://user-images.githubusercontent.com/82110677/117020273-49673480-acc4-11eb-8b9e-b7e0d93d6151.PNG)
+
+The device used to house the sensors and test the water is a simple modified cup, blacked out with spray to avoid any unwanted light interference. The images below are CAD recreations of the cup. 
+
+Bottom View
+
