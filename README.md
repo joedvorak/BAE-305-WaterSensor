@@ -87,9 +87,54 @@ void loop()
       }
     }
   }
-```
+  avgValue=0;
+  for(int i=2;i<8;i++)                      //take the average value of 6 center sample
+    avgValue+=buf[i];
+  float phValue=(float)avgValue*5.0/1024/6; //convert the analog into millivolt
+  phValue=3.5*phValue;                      //convert the millivolt into pH value
+  Serial.print("    pH:");  
+  Serial.print(phValue,2);
+  Serial.println(" ");
+  digitalWrite(13, HIGH);       
+  delay(800);
+  digitalWrite(13, LOW); 
 
-![Code 2](https://user-images.githubusercontent.com/82110677/117055435-256a1a00-ace9-11eb-88b3-ff951f879a87.png)
+
+ digitalWrite (7,HIGH);              // turn LED on for sensing
+
+  pH = analogRead(A1);                 // Hook pH into A1, alos need to add in the conversion factor
+  turbidity = analogRead(A0);           // Hook phototransistor into A0 and need to add conversion
+
+  lcd.clear();
+  lcd.setCursor(0,0);
+  lcd.print("phValue: ");                   //Print the pH on the screen
+  lcd.print(phValue);
+
+  lcd.setCursor(0,1);
+  lcd.print("Turbidity: ");            //Print the Turbidity on the screen
+  lcd.print(turbidity);
+
+  delay(3000);                         // delay 5 seconds after displaying the values then clear and state if it is safe
+  lcd.clear();
+  lcd.setCursor(0,0);
+  
+  if (pH > 4  && pH < 8  && turbidity >10   && turbidity <20  )      {
+    
+  lcd.print("Safe");                      //If loop to say whether or not the values are ok
+  analogWrite(RedPin, 0);
+  analogWrite(GreenPin, 100);
+  analogWrite(BluePin, 0);
+  }
+
+  else {
+    lcd.print("Unsafe");                  // If our sensors detect that it is unsafe then display the warning message
+     analogWrite(RedPin, 100);
+     analogWrite(GreenPin, 0);
+     analogWrite(BluePin, 0);
+  }
+  
+}
+```
 
 ## Design Decision
 In order to create this system, we went through a lot of different design ideas before landing on our final design. Initially, we thought we would be able to heat the water, after determining it was unsafe to drink, but after further investigation into this process decided against it. We also decided to leave out any moving parts, such as servo motors, as this would take a lot of power and putting together two breadboards can get difficult. In the end, we determined that a pH sensor and a LED with a phototransistor would be best at determining values we could use to determine water quality. A big decision we had to make was whether to use a phototransistor or a photoresistor as they both perform similar functions. After some research and talking to Dr. Dvorak, we determined that the phototransistor would be best as it gives slightly more accurate readings. 
