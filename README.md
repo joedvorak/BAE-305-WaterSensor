@@ -34,7 +34,60 @@ Top View
 ### Code
 Below you will find the images of the source code we used for this project. If you would like to replicate our work or analyze our code closer you can do so by clicking the link at the top of this page redircting you to our main Git Hub page. From there see the "Branches" tab at the top in which you will find the branch called "Arduino Code". Inside that branch is our exact source code that you'll be able to copy and paste or review more closely. 
 
-![Code 1](https://user-images.githubusercontent.com/82110677/117055201-e6d45f80-ace8-11eb-93fc-384321561d6a.png)
+```c
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(13,12,11,10,9,8);     //Connect the LCD to pins 8-13
+
+int pH=A1;
+int turbidity=A0;                       //Set the variables for pH and turbidity
+
+int RedPin=6;                           //Hook LED to 3,5,6 flat edge on 6
+int GreenPin=5;
+int BluePin=3;
+
+#define SensorPin 1         //pH meter Analog output to Arduino Analog Input 0
+unsigned long int avgValue;  //Store the average value of the sensor feedback
+float b;
+int buf[10],temp;
+
+
+
+
+
+void setup() {  
+              
+  lcd.begin(16,2);
+  lcd.clear();
+
+  pinMode(RedPin, OUTPUT);
+  pinMode(GreenPin, OUTPUT);
+  pinMode(BluePin, OUTPUT);
+  pinMode(7,OUTPUT);
+ pinMode(13,OUTPUT);  
+  Serial.begin(9600);  
+  Serial.println("Ready");    //Test the serial monitor
+}
+
+void loop()
+{
+  for(int i=0;i<10;i++)       //Get 10 sample value from the sensor for smooth the value
+  { 
+    buf[i]=analogRead(SensorPin);
+    delay(10);
+  }
+  for(int i=0;i<9;i++)        //sort the analog from small to large
+  {
+    for(int j=i+1;j<10;j++)
+    {
+      if(buf[i]>buf[j])
+      {
+        temp=buf[i];
+        buf[i]=buf[j];
+        buf[j]=temp;
+      }
+    }
+  }
+```
 
 ![Code 2](https://user-images.githubusercontent.com/82110677/117055435-256a1a00-ace9-11eb-88b3-ff951f879a87.png)
 
